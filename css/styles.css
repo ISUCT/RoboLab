@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700&subset=cyrillic');
 body {
 	font-family: 'Rubik';
+	font-weight: 300;
     font-size: 13px;
-    color: #9ca4ab;
+    color: #252525;
 }
 a{
 	font-family: 'Rubik';
@@ -55,13 +56,17 @@ h2 {
 h3 {
 	font-family: 'Rubik';
 	font-weight: 300;
-	padding-top: 20px;
-	padding-bottom: 17px;
 	font-family: 'Rubik';
 	font-weight: 300;
 	line-height: 22px;
 	font-size: 14px;
 	color: #707070;
+}
+h5 {
+	font-family: 'Rubik';
+	font-weight: 700;
+	font-size: 30px;
+	color: #aeaeae;
 }
 h6 {
 	font-family: 'Rubik';
@@ -69,12 +74,35 @@ h6 {
 	font-size: 14px;
 	color: #242424;
 }
-h6:hover {
+#blocks h6:hover {
 	color: #dd3558;
 }
 header {
 	padding-top: 23px;
 	padding-bottom: 15px;	
+}
+#text-input, #exampleSelect {
+	height: 43px;
+}
+::-webkit-input-placeholder, .form-control, option, input, button {
+	font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 15px;
+}
+.card-body {
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	padding-bottom: 0;
+}
+.card {
+	border: none;
+}
+.card-text {
+	padding: 0 25px 0 25px;
+}
+.card-footer {
+	background-color: #f9f9f9;
+	border: none;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
 }
 .container {
     display: table;
@@ -122,7 +150,7 @@ header {
 }
 .header-button-1 {
 	margin: 20px 20px 20px 0px;
-	padding: 14px 24px 14px 24px;
+	padding: 14px 23px 14px 23px;
 	background-color: #dd3558;
 	border-color: #dd3558;
 	border-radius: 5px;
@@ -136,7 +164,15 @@ header {
 	border-radius: 5px;
 	border: 1px solid #dd3558;
 }
-.header-button-1:hover {
+.submit-button {
+	margin: 20px 20px 20px 0px;
+	padding: 14px 40px 14px 40px;
+	background-color: #dd3558;
+	border-color: #dd3558;
+	border-radius: 5px;
+	border: 1px solid #dd3558;
+}
+.header-button-1:hover, .submit-button:hover {
 	background-color: #c42143;
 }
 .bg {
@@ -157,6 +193,7 @@ header {
 	height: 590px;
 	width: 560px;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	transition: 0.4s;
 }
 .info-box-2 {	
 	display: -webkit-flex;
@@ -170,6 +207,7 @@ header {
 	height: 280px;
 	width: 400px;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	transition: 0.4s;
 }
 .info-box:hover, .info-box-2:hover {	
 	box-shadow: 0 0 25px rgba(0,0,0,0.5);
@@ -190,29 +228,38 @@ header {
 	display: inline-block;
 }
 .footer-links {
-	font-size: 13px;
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-size: 14px;
 	color: #252525;
 	-webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: #b0b0b0;
 }
-.img-box {
+.slide-box {
 	height: 520px;
-	border-radius: 5px 0 0 5px;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	display: flex;
 }
-.text-box {
-	height: 520px;
-	width: 550px;
-	border-radius: 0 5px 5px 0;
-	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+.container-inner {
+	margin: auto;
+	width: 90%;
+	justify-content: center;
+	display: flex;
+	align-items: center;
 }
-.anim-image {
-	overflow: hidden;
-	position: absolute;
-	animation: anim-image;
-	animation-duration: 1s;
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: #dadada;
 }
-@keyframes anim-image {
-	from {padding-left: 0px;}
-	to {padding-left: 500px;}
+.carousel-indicators li {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid #dd3558;
+}
+.carousel-indicators .active {
+	background-color: #dd3558;
+	border: 1px solid #dd3558;
+}
+.carousel-indicators {
+	display: flex;
 }
