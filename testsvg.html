@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset ="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>RoboLab</title>
+    <script src="js/main.js"></script>
+    <script src="js/snap.svg.js"></script>
+    <script src="js/test.js"></script>
+</head>
+<body>
+        <div id="myCanvas">
+
+        </div>
+        <object height="600" width="550" data="img/main_1.svg" type="image/svg+xml"></object>
+        <script type="text/javascript">
+            var d = Snap('#svg2');
+            console.log(d);
+            var s = Snap("#svg");
+            var tux = Snap.load("img/main_1.svg", function ( loadedFragment ) {
+            s.append( loadedFragment );
+            } );
+        </script>
+
+</body>
+</html>
