@@ -199,6 +199,7 @@ header {
 	display: -ms-flexbox;
 	display: flex;
 	float: left;
+	overflow: hidden;
 	background-color: white;
 	border: 1px;
 	border-radius: 5px;
