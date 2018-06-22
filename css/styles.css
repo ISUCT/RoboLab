@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700&subset=cyrillic');
+@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:900;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.woff) format("woff"),url(../webfonts/fa-solid-900.ttf) format("truetype"),url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.fas{font-family:Font Awesome\ 5 Free;font-weight:900}
 body {
 	font-family: 'Rubik';
 	font-weight: 300;
@@ -24,20 +25,21 @@ hr {
 	border: 1.5px solid #dd3558;
 	border-radius: 5px;
 }
-.vertical-align p {
-	font-family: Open Sans;
-	font-size: 13px;
-    color: #9ca4ab;
-	margin: 30px auto;
-	-webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: black;
+.hr-2 {
+	margin-bottom: 20px;
+	margin-left: 0px;
+	width: 23px;
+	border: 1.5px solid black;
+	border-radius: 5px;
 }
 p {
-	font-family: Open Sans;
-	font-size: 13px;
-    color: #9ca4ab;
-	-webkit-text-stroke-width: 0.1px;
-    -webkit-text-stroke-color: black;
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-family: 'Rubik';
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 14px;
+	color: #707070;
 }
 h1 {
 	font-family: 'Rubik';
@@ -56,11 +58,16 @@ h2 {
 h3 {
 	font-family: 'Rubik';
 	font-weight: 300;
-	font-family: 'Rubik';
-	font-weight: 300;
 	line-height: 22px;
 	font-size: 14px;
 	color: #707070;
+}
+h4 {
+	font-size: 18px;
+	font-family: 'Rubik';
+	color: #242424;
+	font-weight: 500;
+	letter-spacing: 0px;
 }
 h5 {
 	font-family: 'Rubik';
@@ -73,13 +80,6 @@ h6 {
 	font-weight: 500;
 	font-size: 14px;
 	color: #242424;
-}
-#blocks h6:hover {
-	color: #dd3558;
-}
-header {
-	padding-top: 23px;
-	padding-bottom: 15px;	
 }
 #text-input, #exampleSelect {
 	height: 43px;
@@ -104,6 +104,9 @@ header {
 	border: none;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
 }
+.card-footer h2 {
+	font-size: 14px;
+}
 .container {
     display: table;
     width: 100%;
@@ -111,14 +114,21 @@ header {
     min-height: 100%;
 }
 .row {
-	margin: auto 45px auto 45px;
+	margin: auto 48px;
 }
 .vertical-align {
 	display: table-cell;
 	margin: auto 0px auto 0px;
 }
+
+
+
+
+
+/*Навбар*/
+
 .navbar {
-	margin: auto;
+	margin: 25px auto;
 	width: 100%	;
 }
 .navbar-default .navbar-brand {
@@ -136,18 +146,53 @@ header {
 	color: #252525;
 	-webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: #b0b0b0;
+	
 }
-.nav-link:hover, .navbar-nav > .active > a {
+.nav-link:hover {
+	color: #dd3558 !important;
+	padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > .active > a:focus {
 	border-bottom: 1px solid #dd3558;
 	color: #dd3558 !important;
 	padding-bottom: 5px;
 }
-.padmain {
-	margin: 30px auto;
-}
 .navbar-default .navbar-brand:hover {
 	color: #dd3558;
 }
+
+/**/
+
+
+
+#indexlab {
+	height: 693px;
+}
+#indexlab .header-button-2 {
+	color: #dd3558
+}
+
+#index-courses h6{
+	padding: 35px 0 0 25px;
+}
+#index-courses p {
+	padding: 0 0 0 25px;
+}
+#index-courses .info-box:hover > h6, #index-courses .info-box-2:hover > h6 {
+	color: #dd3558;
+}
+#index-courses .info-box-2 > svg {
+	width: 200px;
+	height: 221px;
+	float: right;
+	display: inline;
+}
+#index-courses .info-box-2 > p {
+	float: left;
+}
+
+/* Кнопки */
+
 .header-button-1 {
 	margin: 20px 20px 20px 0px;
 	padding: 14px 23px 14px 23px;
@@ -175,11 +220,93 @@ header {
 .header-button-1:hover, .submit-button:hover {
 	background-color: #c42143;
 }
+
+
+/**/
+
+
+
+/*Подвал*/
+.footer {
+	background-color: #fabe50;
+	width: 100%;
+	margin: auto;
+	bottom: 0;
+	height: 430px;
+}
+.footer ul li {
+	padding: 20px 5px 0px 5px;
+	margin: auto;
+	display: inline-block;
+}
+.footer-links {
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-size: 14px;
+	color: #000;
+	-webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: #b0b0b0;
+}
+#foo-2 {
+	height: 20px;
+	background-color: #fff;
+}
+#foo-2 ul li a {
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-size: 14px;
+}
+
+/**/
+
+/*Programm, aboutus - Cards - 1*/
+
+#command-block .card-body {
+	height: 375px;
+}
+#command-block .card-body h4, h3{
+	margin: 10px auto;
+}
+#command-block .card-body img {
+	margin: 10px auto;
+}
+#command-block .card-body li a i{
+	margin: 20px 8px;
+}
+#command-block .card {
+	margin: 0 0 25px 0;
+}
+	
+
+
+/**/
+
+
+
+/*Programm - Cards - 2*/
+#projects .card p {
+	padding: 0;
+	line-height: 20px;
+}
+#projects .card-body {
+		flex-wrap: wrap;
+        flex: initial; 
+}
+
+/**/
+
+#photos-cards .card-img {
+	height: 310px;
+}
+#photos-cards .card {
+	margin: 10px auto;
+}
+
 .bg {
 	height: auto;
 }
 .yellow-bg {
-	margin: auto auto;
+	margin: auto;
 	width: 100%;
 	height: 280px;
 	background-color: #fabe50;
@@ -215,36 +342,9 @@ header {
 	position: relative;
 	float: right;
 }
-.footer {  	
-    bottom: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #f5f5f5;
-}
-.footer ul li {
-	padding: 20px 5px 0px 5px;
-	margin: auto;
-	display: inline-block;
-}
-.footer-links {
-	font-family: 'Rubik';
-	font-weight: 300;
-	font-size: 14px;
-	color: #252525;
-	-webkit-text-stroke-width: 0.2px;
-    -webkit-text-stroke-color: #b0b0b0;
-}
 .slide-box {
 	height: 520px;
-	box-shadow: 0 0 25px rgba(0,0,0,0.1);
-	display: flex;
-}
-.container-inner {
-	margin: auto;
-	width: 90%;
-	justify-content: center;
-	display: flex;
-	align-items: center;
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .carousel-control-prev-icon, .carousel-control-next-icon {
 	background-color: #dadada;
@@ -255,10 +355,239 @@ header {
 	border-radius: 50%;
 	border: 1px solid #dd3558;
 }
+.carousel-inner {
+	height: 520px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.carousel-inner .row {
+	margin: 0;
+}
+.carousel-inner .col-6 {
+	display: inline-block;
+	padding: 0;
+}
 .carousel-indicators .active {
 	background-color: #dd3558;
 	border: 1px solid #dd3558;
 }
-.carousel-indicators {
-	display: flex;
+.carousel-control-next-icon:after {
+	content: '';
+	font-size:55px;
+	color: black;
+}
+.carousel-control-prev-icon:after {
+  font-size: 55px;
+  color: black;
+}
+#programm {
+	background-color: #fabe50;
+}
+a i{
+	margin: 0 7px 0 7px;
+	color: #707070;
+}
+a i:hover {
+	color: #dd3558;
+}
+.prog-block {
+	background-color: white;
+	border: 1px;
+	border-radius: 5px;
+	height: 410px;
+	width: 320px;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	padding: 30px;
+}
+.prog-block h4 {
+	font-size: 18px;
+	padding: 3px 0 40px 0;
+}
+#prog-text h3 {
+	padding: 5px 0 40px 0;
+}
+#command {
+	background-color: #f6f6f6;
+}
+
+.panel-title {
+	display: block;
+	background-color: white;
+	border: 1px;
+	border-radius: 5px;
+	width: 100%;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	padding: 30px;
+	margin-top: 15px;
+}
+.panel-title a {
+	float: right;
+}
+.panel-body {
+	padding: 20px 30px;
+	background-color: #fafafa;
+	border-radius: 0;
+}
+#aboutus {
+	height: 440px;
+}
+#aboutus h3 {
+	padding: 17px 0px;
+}
+#aboutus a {
+	padding: 0;
+}
+#schedule-table .none {
+	border: 1px solid #fff;
+	width: 80px;
+	height: 50px;
+	background-color: #f6f6f6;
+}
+#schedule-table th {
+	font-family: 'Rubik';
+	font-weight: 500;
+	line-height: 22px;
+	font-size: 14px;
+	color: #707070;
+	background-color: #ececec;
+}
+#schedule-table table th, #schedule-table table td{
+	width: 130px;
+	height: 50px;
+}
+#schedule-table table.table-bordered > thead > tr > th {
+	border: 1px solid #fff;
+}
+#schedule-table table.table-bordered > tbody > tr > td {
+	border: 1px solid #fff;
+}
+#map {
+	height: 753px;
+	background-color: #f6f6f6;
+}
+#map a, #map i {
+	font-style: normal;
+	color: #fff;
+	background-color: #fabe50;
+	border-radius: 0 5px 0 0;
+	padding: 4px 4px;
+	float: right;
+	vertical-align: top;
+}
+.map-card {
+	background-color: white;
+	border-radius: 5px 5px 0 5px;
+	height: 450px;
+	width: 320px;
+	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	padding: 0px;
+	margin: 235px 0;
+}
+.map-card-body {
+	padding: 20px;
+}
+.message-window {
+	background-color: #fabe50;
+	height: 450px;
+	border-radius: 0 5px 5px 0;
+	padding: 20px 50px;
+	position: relative;
+	margin-top: -685px;
+	margin: -685px 320px;
+}
+.message-window p{
+	margin: 5px 0 0;
+}
+.course {
+	background-color: #f4f4f4;
+	height: 1000px;
+	padding: 65px;
+	margin: 0 1px;
+}
+.course .pink-line {
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 23px;
+	border: 1.5px solid #dd3558;
+	border-radius: 5px;
+}
+.course .orange-line {
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 23px;
+	border: 1.5px solid #fabe50;
+	border-radius: 5px;
+}
+.course .green-line {
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 23px;
+	border: 1.5px solid #60d394;
+	border-radius: 5px;
+}
+.course .blue-line {
+	margin-bottom: 10px;
+	margin-left: 0px;
+	width: 23px;
+	border: 1.5px solid #c5d9e4;
+	border-radius: 5px;
+}
+.course .training-btn {
+	background-color: white;
+	padding: 17px 25px;
+}
+.course h3 {
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-family: 'Rubik';
+	font-weight: 300;
+	line-height: 22px;
+	font-size: 16px;
+	color: #707070;
+}
+.course h6 {
+	font-family: 'Rubik';
+	font-weight: 500;
+	font-size: 18px;
+	color: #242424;
+	padding-top: 50px;
+}
+.course a {
+	font-family: 'Rubik';
+	font-weight: 300;
+	font-size: 18px;
+	text-decoration: none;
+	color: #dd3558;
+	line-height: 22px;
+}
+#pink a {
+	color: #dd3558;
+	transition: 0.5s;
+}
+#pink a:hover {
+	color: white;
+	background-color: #dd3558;
+}
+#orange a {
+	color: #fabe50;
+	transition: 0.5s;
+}
+#orange a:hover {
+	color: white;
+	background-color: #fabe50;
+}
+#green a {
+	color: #60d394;
+	transition: 0.5s;
+}
+#green a:hover {
+	color: white;
+	background-color: #60d394;
+}
+#blue a {
+	color: #c5d9e4;
+	transition: 0.5s;
+}
+#blue a:hover {
+	color: white;
+	background-color: #c5d9e4;
 }
