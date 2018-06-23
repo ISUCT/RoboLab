@@ -45,16 +45,16 @@
 				</div>
 			</nav>
 		</div>
-		<div style="height: 483px">
+		<div id="prog-head">
 			<div class="container">
 				<div class="row mt-5">
 					<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 ml-0 mt-2">
 						<hr class="mb-3 mt-4 hr-2">
 						<h1>Программирование</h1>
-						<h3 style="padding: 20px 0">Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст .</h3>
+						<h3>Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст Тут текст .</h3>
 						<div class="d-sm-table d-md-block mt-4 mb-4">
 							<a href="#" class="header-button-1 text-white">Записаться на занятие</a>
-						<h3 class="d-xl-inline-block d-lg-block d-md-block d-sm-block mt-md-5 mt-sm-5 ">Расскажите друзьям</h3>
+						<p class="d-xl-inline-block d-lg-block d-md-block d-sm-block mt-md-5 mt-sm-5 mt-lg-5 mt-xl-2">Расскажите друзьям</p>
 							<a href="http://vk.com"><i class="fab fa-vk"></i></a>
 							<a href="http://twitter.com"><i class="fab fa-twitter"></i></a>
 							<a href="http://facebook.com"><i class="fab fa-facebook"></i></a>

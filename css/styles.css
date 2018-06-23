@@ -121,7 +121,9 @@ h6 {
 	margin: auto 0px auto 0px;
 }
 
-
+#hideref a h6:hover{
+	color: #dd3558;
+}
 
 
 
@@ -136,7 +138,8 @@ h6 {
 	font-family: 'Rubik';
 	font-weight: 500;
 	color: #242424;	
-	text-align: center;	
+	text-align: center;
+	transition: 0.4s;	
 }
 .nav-link {
 	font-family: 'Rubik';
@@ -144,21 +147,26 @@ h6 {
 	font-size: 16px;
 	margin: auto 6px auto 6px;
 	color: #252525;
+	transition: 0.4s;
 	-webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: #b0b0b0;
 	
 }
-.nav-link:hover {
+.nav-link:hover, .navbar-brand:hover {
+	transition: 0.3s;
 	color: #dd3558 !important;
 	padding-bottom: 5px;
 }
+.navbar-default .navbar-nav > .active{
+    color: #000;
+    background: #d65c14;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-	border-bottom: 1px solid #dd3558;
+   	border-bottom: 1px solid #dd3558;
 	color: #dd3558 !important;
 	padding-bottom: 5px;
-}
-.navbar-default .navbar-brand:hover {
-	color: #dd3558;
 }
 
 /**/
@@ -180,6 +188,7 @@ h6 {
 }
 #index-courses .info-box:hover > h6, #index-courses .info-box-2:hover > h6 {
 	color: #dd3558;
+	transition: 0.4s;
 }
 #index-courses .info-box-2 > svg {
 	width: 200px;
@@ -199,6 +208,7 @@ h6 {
 	background-color: #dd3558;
 	border-color: #dd3558;
 	border-radius: 5px;
+	transition: 0.4s;
 	border: 1px solid #dd3558;
 }
 .header-button-2 {
@@ -215,15 +225,16 @@ h6 {
 	background-color: #dd3558;
 	border-color: #dd3558;
 	border-radius: 5px;
+	transition: 0.4s;
 	border: 1px solid #dd3558;
 }
 .header-button-1:hover, .submit-button:hover {
 	background-color: #c42143;
+	transition: 0.4s
 }
 
 
 /**/
-
 
 
 /*Подвал*/
@@ -246,6 +257,7 @@ h6 {
 	color: #000;
 	-webkit-text-stroke-width: 0.2px;
     -webkit-text-stroke-color: #b0b0b0;
+    transition: 0.4s
 }
 #foo-2 {
 	height: 20px;
@@ -272,6 +284,7 @@ h6 {
 }
 #command-block .card-body li a i{
 	margin: 20px 8px;
+	transition: 0.4s;
 }
 #command-block .card {
 	margin: 0 0 25px 0;
@@ -281,7 +294,15 @@ h6 {
 
 /**/
 
-
+#prog-head {
+	height: 483px;
+}
+#prog-head h3 {
+	padding: 20px 0;
+}
+#prog-head a i {
+	transition: 0.4s;
+}
 
 /*Programm - Cards - 2*/
 #projects .card p {
@@ -322,9 +343,6 @@ h6 {
 	transition: 0.4s;
 }
 .info-box-2 {	
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
 	float: left;
 	overflow: hidden;
 	background-color: white;
@@ -336,7 +354,7 @@ h6 {
 	transition: 0.4s;
 }
 .info-box:hover, .info-box-2:hover {	
-	box-shadow: 0 0 25px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
 }
 .right-bottom {
 	position: relative;
