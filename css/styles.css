@@ -121,7 +121,7 @@ h6 {
 	margin: auto 0px auto 0px;
 }
 
-#hideref a h6:hover{
+#hideref a:hover > h6{
 	color: #dd3558;
 }
 
@@ -334,6 +334,7 @@ h6 {
 }
 .info-box {	
 	float: left;
+	overflow: hidden;
 	background-color: white;
 	border: 1px;
 	border-radius: 5px;
@@ -355,6 +356,9 @@ h6 {
 }
 .info-box:hover, .info-box-2:hover {	
 	box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
+}
+.info-box h6, .info-box-2 h6 {
+	transition: 0.4s;
 }
 .right-bottom {
 	position: relative;
