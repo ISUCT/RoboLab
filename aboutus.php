@@ -108,7 +108,7 @@
 		</div>
 	<?php include 'projects.html' ?> 
 	<div class="container">
-		<div class="row mt-5 mb">
+		<div class="row mt-5">
 			<div class="col-12 mb-4 text-center">
 				<h1>Фотографии с занятий</h1>
 			</div>
@@ -143,11 +143,11 @@
 				</div>
 			</div>
 		</div>
-		<div id="#hideref" class="col-xl-12 mt-5 mb-5 text-center">
+		<div id="hideref" class="col-xl-12 mt-5 mb-5 text-center">
 			<a data-toggle="collapse" data-parent="#collapse-group" href="#hide-me" onclick="Hide()"><h6 class="text-uppercase">Больше фотографий<br><i class="fa">&#xf107</i></h6></a>
 			<script type="text/javascript">
 			function Hide() {
-			document.getElementById("#hideref").style.display = "none";
+			document.getElementById("hideref").style.display = "none";
 			}
 			</script>
 		</div>
@@ -173,7 +173,7 @@
 					<a id="showhide" data-toggle="collapse" data-parent="#collapse-group" href="#hide-me" onclick="Show();"><h6 class="text-uppercase">Скрыть</h6></a>
 					<script type="text/javascript">
 						function Show() {
-						document.getElementById("#hideref").style.display = "block";
+						document.getElementById("hideref").style.display = "block";
 						}
 					</script>
 				</div>

@@ -67,35 +67,40 @@
 		<div class="bg">
 			<div class="container" id="index-courses">
 				<div class="row mb-5">
-					<div class="col-xl-12 mt-5 text-center">
+					<div class="col-xl-12 mt-5 mb-5 text-center">
 						<h1 class="text-white">Направления обучения</h1>
 					</div>
 					<div class="container">
-						<div class="row d-table-cell">
-							<a href="programm.php"><div class="col-xl-7 col-lg-7 col-12 mt-5 info-box">
+						<div class="row ml-0 mr-0">
+							<div class="col-12 col-xl-7 pl-0 pr-0 pr-xl-2 pl-xl-0 ">
+							<a href="programm.php"><div class="col-lg-12 col-12 info-box">
 								<h6 class="text-uppercase">Программирование</h6>
 								<p>Мы обучаем юных джедаев современным языкам программирования, алгоритмам и структурам даннах, мобильным технологиям, сетевой безопасности.</p>
-								<svg xmlns="http://www.w3.org/2000/svg" viewBox="80 150 600 600">
+								<svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="80 150 600 600">
 									<image xlink:href="img/main_2.svg" x="0" y="0" height="750px" width="750px"/>
 								</svg>
 							</div></a>
-							<a href="#"><div class="col-xl-5 col-5 mt-5 ml-4 info-box-2">
-								<h6 class="text-uppercase">Трехмерная печать</h6>
-								<p class="float-left">Процесс 3D-печати - это создание реального объекта по образцу трехмерной модели путем накладывания слоев.
-								<svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 221">
-									<image xlink:href="img/main_3.svg" x="-150" y="-90" height="450px" width="490px"/>
-								</svg></p>
-							</div></a>
-							<a href="#"><div class="col-xl-5 col-5 mt-4 ml-4 info-box-2">
-								<h6 class="text-uppercase">Робототехника</h6>
-								<div class="row ml-0 mr-0">
-								<div class="col-6 pl-0 pr-0">
-								<p class="float-left">Робототехника - идеальное занятие для любознательных и творческих ребят, уникальный шанс реализовать свои конструкторские и изобретательские наклонности.</p></div>
-								<div class="col-6 pl-0 pr-0">
-								<svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 250">
-									<image xlink:href="img/main_4.svg" x="-190" y="-150" height="550px" width="590px"/>
-								</svg></div>
 							</div>
+							<div class="col-12 col-xl-5 pr-0 pl-0 pr-xl-0 pl-xl-3 d-table-cell">
+								<a href="#"><div class="col-md-12 col-12 mt-4 ml-0 ml-md-0 mt-md-4 mt-xl-0 ml-xl-0 info-box-2">
+									<h6 class="text-uppercase">Трехмерная печать</h6>
+									<div>
+										<p>Процесс 3D-печати - это создание реального объекта по образцу трехмерной модели путем накладывания слоев.</p>
+										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 251">
+											<image xlink:href="img/main_3.svg" x="-180" y="-140" height="550px" width="590px"/>
+										</svg>
+									</div>
+								</div></a>
+	
+								<a href="#"><div class="col-12 mt-4 ml-0 ml-lg-0 pl-lg-3 info-box-2">
+									<h6 class="text-uppercase">Робототехника</h6>
+									<div>
+										<p>Робототехника - идеальное занятие для любознательных и творческих ребят, уникальный шанс реализовать свои конструкторские и изобретательские наклонности.</p>
+										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 251">
+											<image xlink:href="img/main_4.svg" x="-180" y="-140" height="550px" width="590px"/>
+										</svg>
+									</div>
+
 							</div></a>
 						</div>
 					</div>
@@ -241,11 +246,11 @@
 						</div>
 					</div>
 				</div>
-				<div id="#hideref" class="col-xl-12 mt-5 mb-5 text-center">
+				<div id="hideref" class="col-12 mt-5 mb-5 text-center">
 					<a data-toggle="collapse" data-parent="#collapse-group" href="#hide-me" onclick="Hide()"><h6 class="text-uppercase">Еще мнения<br><i class="fa">&#xf107</i></h6></a>
 					<script type="text/javascript">
 					function Hide() {
-						document.getElementById("#hideref").style.display = "none";
+						document.getElementById("hideref").style.display = "none";
 						}
 					</script>
 				</div>
@@ -309,7 +314,7 @@
 							<a id="showhide" data-toggle="collapse" data-parent="#collapse-group" href="#hide-me" onclick="Show();"><h6 class="text-uppercase">Скрыть</h6></a>
 							<script type="text/javascript">
 								function Show() {
-								document.getElementById("#hideref").style.display = "block";
+								document.getElementById("hideref").style.display = "block";
 								}
 							</script>
 						</div>
