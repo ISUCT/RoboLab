@@ -108,7 +108,7 @@
 					   			<h4>Евгений Сергеевич Константинов</h2>
 								<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
 								<ul class="list-unstyled list-inline pt-1">
-								<li class="list-inline-item"><a href="programm.html" data-toggle="tooltip" title="Программирование"><i class="fas fa-code"></i></a></li>
+								<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code"></i></a></li>
 								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Трехмерная печать"><i class="fas fa-cube"></i></a></li>
 								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot"></i></a></li>
 								</ul>

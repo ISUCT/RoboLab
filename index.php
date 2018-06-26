@@ -67,7 +67,7 @@
 		<div class="bg">
 			<div class="container" id="index-courses">
 				<div class="row mb-5">
-					<div class="col-xl-12 mt-5 mb-5 text-center">
+					<div class="col-12 mt-5 mb-5 text-center">
 						<h1 class="text-white">Направления обучения</h1>
 					</div>
 					<div class="container">
@@ -81,27 +81,26 @@
 								</svg>
 							</div></a>
 							</div>
-							<div class="col-12 col-xl-5 pr-0 pl-0 pr-xl-0 pl-xl-3 d-table-cell">
-								<a href="#"><div class="col-md-12 col-12 mt-4 ml-0 ml-md-0 mt-md-4 mt-xl-0 ml-xl-0 info-box-2">
+							<div class="col-lg-12 col-12 col-xl-5 pr-0 pl-0 pr-xl-0 pl-xl-3">
+								<a href="#"><div class="col-lg-6 col-md-12 col-xl-12 mt-4 ml-0 ml-md-0 mt-md-4 mt-xl-0 ml-xl-0 info-box-2">
 									<h6 class="text-uppercase">Трехмерная печать</h6>
 									<div>
 										<p>Процесс 3D-печати - это создание реального объекта по образцу трехмерной модели путем накладывания слоев.</p>
-										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 251">
+										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 252">
 											<image xlink:href="img/main_3.svg" x="-180" y="-140" height="550px" width="590px"/>
 										</svg>
 									</div>
 								</div></a>
-	
-								<a href="#"><div class="col-12 mt-4 ml-0 ml-lg-0 pl-lg-3 info-box-2">
+								<a href="#"><div class="col-lg-6 col-xl-12 mt-4 ml-0 ml-lg-0 info-box-2 ">
 									<h6 class="text-uppercase">Робототехника</h6>
-									<div>
+									<div class="">
 										<p>Робототехника - идеальное занятие для любознательных и творческих ребят, уникальный шанс реализовать свои конструкторские и изобретательские наклонности.</p>
-										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 251">
+										<svg class="d-none d-md-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 252">
 											<image xlink:href="img/main_4.svg" x="-180" y="-140" height="550px" width="590px"/>
 										</svg>
 									</div>
-
-							</div></a>
+								</div></a>
+							</div>
 						</div>
 					</div>
 				</div>

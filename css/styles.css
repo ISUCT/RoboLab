@@ -35,8 +35,6 @@ hr {
 p {
 	font-family: 'Rubik';
 	font-weight: 300;
-	font-family: 'Rubik';
-	font-weight: 300;
 	line-height: 22px;
 	font-size: 14px;
 	color: #707070;
@@ -292,6 +290,7 @@ h6 {
 #command-block .card-body li a i{
 	margin: 20px 8px;
 	transition: 0.4s;
+	font-style: normal;
 }
 #command-block .card {
 	margin: 0 0 25px 0;
@@ -312,14 +311,30 @@ h6 {
 }
 
 /*Programm - Cards - 2*/
+#projects .card {
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+#projects .card-img-top {
+	border-radius: 6px 6px 0 0;
+}
 #projects .card p {
-	padding: 0;
+	padding: 5px 0;
 	line-height: 20px;
 }
-#projects .card-body {
-		flex-wrap: wrap;
-        flex: initial; 
+#projects div[class*='col-lg-4']  {
+	margin-bottom: 2rem;
+	display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
 }
+#projects .card-footer {
+	box-shadow: 
+	4px 4px 6px -7px rgba(0,0,0,0.1), 
+	-4px 4px 6px -7px rgba(0,0,0,0.1);
+	background-color: white;
+}
+
 
 /**/
 
@@ -327,7 +342,7 @@ h6 {
 	height: 310px;
 }
 #photos-cards .card {
-	margin: 10px auto;
+	margin: 1rem auto;
 }
 
 .bg {
@@ -351,6 +366,7 @@ h6 {
 }
 .info-box-2 {	
 	float: left;
+	display: table-cell;
 	overflow: hidden;
 	background-color: white;
 	border: 1px;
@@ -360,10 +376,15 @@ h6 {
 	transition: 0.4s;
 }
 .info-box-2 div {
-	display: inline-flex;
-	display: -webkit-inline-box;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+/*	display: inline-flex;*/
+/*	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
-	display: -ms-inline-flexbox;
+	display: -ms-inline-flexbox;*/
 }
 .info-box:hover, .info-box-2:hover {	
 	box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
@@ -441,14 +462,13 @@ a i:hover {
 #command {
 	background-color: #f6f6f6;
 }
-
 .panel-title {
 	display: block;
 	background-color: white;
 	border: 1px;
 	border-radius: 5px;
 	width: 100%;
-	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
 	padding: 30px;
 	margin-top: 15px;
 }
