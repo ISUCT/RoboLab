@@ -47,7 +47,7 @@
 	<div id="aboutus">
 		<div class="container">
 			<div class="row">
-				<div class="col-xl-6 col-lg-6 col-md-10 col-sm-9 mt-xl-4 mt-lg-4 mb-auto mt-sm-0">
+				<div class="col-xl-6 col-lg-7 col-md-10 col-sm-9 mt-xl-4 mt-lg-4 mb-auto mt-sm-0">
 					<hr>
 					<h1>О нас и лаборатории</h1>
 					<h3>Лаборатория была создана на базе ИГХТУ. Преподавателями <br>являются доценты технических наук, но мы не против и молодых специалистов, которые могут заполнить <a href="#">анкету</a> и пройти отбор.<br> Сейчас мы обучаем школьников и студентов, у нас маленькие наборы, поэтому места и внимания хватит всем. Специально для лаборатории закупаются необходимые материалы, например, конструкторы ЛЕГО.</h3>
@@ -59,7 +59,7 @@
 						<li class="list-inline-item"><a href="http://vk.com">Вконтакте</a></li>
 					</ul>
 				</div>
-				<div class="col-xl-6 col-lg-6 col-sm-12 d-xl-block d-md-none d-lg-block d-sm-none mt-xl-0 mt-lg-5">
+				<div class="col-xl-6 col-lg-5 col-sm-12 d-xl-block d-lg-block d-none mt-xl-0 mt-lg-5">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
 						<image xlink:href="img/isuct.png" x="27" y="10" height="58px" width="58px"/>
 					</svg>
@@ -68,49 +68,56 @@
 		</div>
 	</div>
 	<div class="yellow-bg">
-		<div class="container">
+		<div class="container" id="command-block">
 			<div class="row">
 				<div class="col-12 mb-4 text-center mt-5">
 					<h1 class="text-white">Команда лаборатории</h1>
 				</div>
-				<div class="col-12 justify-content-center d-flex" id="command-block">
-					<div class="col-xl-4 col-6 col-lg-4">
-						<div class="card">
-					  		<div class="card-body text-center">
-					  			<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
-					   			<h4>Евгений Сергеевич Константинов</h2>
-								<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
-								<ul class="list-unstyled list-inline pt-1">
-									<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code">&#xf121</i></a></li>
-									<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Трехмерная печать"><i class="fas fa-cube">&#xf1b2</i></a></li>
-									<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot">&#xf544</i></a></li>
-								</ul>
-					 	 	</div>
-						</div>
-					</div>
-					<div class="col-xl-4 col-6 col-lg-4" id="command-block">
-						<div class="card">
-						  	<div class="card-body text-center">
+				<a href="#" role="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg"><div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+					  	<div class="card-body text-center">
 					  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
-					   		<h4>Кто-то</h4>
-							<h3>---<br>ИГХТУ</h3>
-								<ul class="list-unstyled list-inline pt-4">
-									<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code">&#xf121</i></a></li>
-									<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot">&#xf544</i></a></li>
-								</ul>
-						 	 </div>
+					   		<h4>Евгений Сергеевич Константинов</h4>
+							<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
+						</div>
+						<div class="card-footer">
+							<ul class="list-unstyled list-inline text-center">
+								<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code">&#xf121</i></a></li>
+								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Трехмерная печать"><i class="fas fa-cube">&#xf1b2</i></a></li>
+								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot">&#xf544</i></a></li>
+							</ul>
 						</div>
 					</div>
-					<div class="col-xl-4 col-6 col-lg-4" id="command-block">
-						<div class="card">
-						  	<div class="card-body text-center">
-						  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
-						   		<h4>Кто-то</h4>
-								<h3>---<br>ИГХТУ</h3>
-						 	 </div>
+				</div></a>
+				<a href="#" role="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg"><div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+					  	<div class="card-body text-center">
+					  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
+					   		<h4>Евгений Сергеевич Константинов</h4>
+							<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
+						</div>
+						<div class="card-footer">
+							<ul class="list-unstyled list-inline text-center">
+								<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code">&#xf121</i></a></li>
+								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot">&#xf544</i></a></li>
+							</ul>
 						</div>
 					</div>
-				</div>
+				</div></a>
+				<a href="#" role="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg"><div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+					  	<div class="card-body text-center">
+					  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
+					   		<h4>Евгений Сергеевич Константинов</h4>
+							<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
+						</div>
+						<div class="card-footer">
+							<ul class="list-unstyled list-inline text-center">
+								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Трехмерная печать"><i class="fas fa-cube">&#xf1b2</i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div></a>
 			</div>
 		</div>
 	<?php include 'projects.html' ?> 
@@ -119,32 +126,32 @@
 			<div class="col-12 mb-4 text-center">
 				<h1>Фотографии с занятий</h1>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
 			</div>
-			<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+			<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 				<div class="card">
 					 <img class="card-img" src="img/fon.jpg" alt="Card image cap">
 				</div>
@@ -161,17 +168,17 @@
 
 		<div id="hide-me" class="panel-collapse collapse">
 			<div class="row">
-				<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+				<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 					<div class="card">
 						<img class="card-img" src="img/fon.jpg" alt="Card image cap">
 					</div>
 				</div>
-				<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+				<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 					<div class="card">
 						<img class="card-img" src="img/fon.jpg" alt="Card image cap">
 					</div>
 				</div>
-				<div class="col-xl-4 col-6 col-lg-4 col-sm-12" id="photos-cards">
+				<div class="col-xl-4 col-md-6 col-lg-4 col-sm-12" id="photos-cards">
 					<div class="card">
 						<img class="card-img" src="img/fon.jpg" alt="Card image cap">
 					</div>

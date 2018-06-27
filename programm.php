@@ -95,38 +95,42 @@
 		</div>
 	</div>
 	<div id="command">
-		<div class="container">
-			<div class="row mt-5 mb-5">
-				<div class="col-12 mt-5 text-center">
+		<div class="container" id="command-block">
+			<div class="row mt-5 mb-5 justify-content-center">
+				<div class="col-12 mt-5 mb-5 text-center">
 					<h1>Команда направления</h1>
 				</div>
-				<div class="col-12 mt-5 mb-5 justify-content-center d-flex" id="command-block">
-					<div class="col-xl-4 col-6 col-lg-4">
-						<div class="card">
-					  		<div class="card-body text-center">
-					  			<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
-					   			<h4>Евгений Сергеевич Константинов</h2>
-								<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
-								<ul class="list-unstyled list-inline pt-1">
+				<a href="#" role="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg"><div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+					  	<div class="card-body text-center">
+					  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
+					   		<h4>Евгений Сергеевич Константинов</h4>
+							<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
+						</div>
+						<div class="card-footer">
+							<ul class="list-unstyled list-inline text-center">
 								<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code"></i></a></li>
 								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Трехмерная печать"><i class="fas fa-cube"></i></a></li>
 								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot"></i></a></li>
-								</ul>
-					 	 	</div>
+							</ul>
 						</div>
 					</div>
-					<div class="col-xl-4 col-6 col-lg-4">
-						<div class="card">
-					  		<div class="card-body text-center">
-					  			<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
-					   			<h4>Кто-то</h2>
-								<h3>---<br>ИГХТУ</h3>
-								<ul class="list-unstyled list-inline pt-4">
-								<li class="list-inline-item"><a href="programm.html" data-toggle="tooltip" title="Программирование"><i class="fas fa-code"></i></a></li>
-								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot"></i></a></li></ul>
-					 	 	</div>
+				</div></a>
+				<a href="#" role="button" class="" data-toggle="modal" data-target=".bd-example-modal-lg"><div class="col-12 col-sm-6 col-lg-4">
+					<div class="card">
+					  	<div class="card-body text-center">
+					  		<img src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg" class="rounded-circle" style="height: 140px">
+					   		<h4>Евгений Сергеевич Константинов</h4>
+							<h3>Преподаватель<br>ИГХТУ, Akvelon</h3>
+						</div>
+						<div class="card-footer">
+							<ul class="list-unstyled list-inline text-center">
+								<li class="list-inline-item"><a href="programm.php" data-toggle="tooltip" title="Программирование"><i class="fas fa-code"></i></a></li>
+								<li class="list-inline-item"><a href="#" data-toggle="tooltip" title="Робототехника"><i class="fas fa-robot"></i></a></li>
+							</ul>
 						</div>
 					</div>
+				</div></a>
 				</div>
 			</div>
 		</div>

@@ -50,7 +50,7 @@
 				<hr>	
 				<h1>Лаборатория робототехники<br>
 					и трехмерной печати</h1>
-				<h3 class="mt-4">Наша лаборатория создана на базе <a href="https://www.isuct.ru">Ивановского Государственого Химико-Технологического университета</a> и представляет возможность школьникам и студентам освоить такие направления как роботехника, трехмерная печать и программирование.</h3>
+				<h3 class="mt-4">Наша лаборатория создана на базе <a href="https://www.isuct.ru">Ивановского Государственного Химико-Технологического университета</a> и представляет возможность школьникам и студентам освоить такие направления как роботехника, трехмерная печать и программирование.</h3>
 				<div class="mt-5 mt-md-5">
 					<a href="#" class="header-button-1 text-white d-inline-block d-sm-inline-block d-md-inline">Записаться на занятие</a>
 					<a href="#" class="header-button-2 d-inline-block d-sm-inline-block d-md-inline">Посмотреть проекты</a> 
@@ -114,8 +114,8 @@
 				<div class="container">
 					<div class="row ml-0 mr-0">
 						<div class="col-12 pr-0 pl-0"> 
-							<div id="indicators" class="carousel slide" data-ride="carousel">
-								<ol class="carousel-indicators mr-auto">
+							<div id="indicators" class="carousel slide data-ride="carousel">
+								<ol class="carousel-indicators mr-0	mr-lg-auto">
 									<li data-target="#indicators" data-slide-to="0" class="active"></li>
 									<li data-target="#indicators" data-slide-to="1"></li>
 									<li data-target="#indicators" data-slide-to="2"></li>
@@ -123,10 +123,10 @@
 									<div class="carousel-inner">
 										<div class="carousel-item active">
 											<div class="row">
-												<div class="col-6">
-												  	<img class="" height="520" src="img/holod.jpg" alt="First slide">
+												<div class="col-6 d-none d-lg-block">
+												  	<img class="d-block w-100"  height="520" src="img/holod.jpg" alt="First slide">
 												</div>
-												<div class="col-6 my-auto pl-5 pr-5">
+												<div class="col-12 col-lg-6 my-auto pl-5 pr-5 pt-5 pb-5 pt-lg-0 pb-lg-0">
 													<h6 class="text-uppercase">01. Преподаватели</h6>
 													<p>Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе.</p>
 													<a class="carousel-control-prev pr-4" href="#indicators" role="button" data-slide="prev">
@@ -142,10 +142,10 @@
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-6">
+												<div class="col-6 d-none d-lg-block">
 												  	<img class="d-block w-100" height="520" src="img/banan.jpg" alt="Second slide">
 												</div>
-												<div class="col-6 my-auto pl-5 pr-5">
+												<div class="col-12 col-lg-6 my-auto pl-5 pr-5 pt-5 pb-5 pt-lg-0 pb-lg-0">
 													<h6 class="text-uppercase">02. Стены университета</h6>
 													<p>Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе.</p>
 													<a class="carousel-control-prev pr-4" href="#indicators" role="button" data-slide="prev">
@@ -161,10 +161,10 @@
 										</div>
 										<div class="carousel-item">
 											<div class="row">
-												<div class="col-6">
+												<div class="col-6 d-none d-lg-block">
 												  	<img class="d-block w-100" height="520" src="img/ruka.png" alt="Third slide">
 												</div>
-												<div class="col-6 my-auto pl-5 pr-5">
+												<div class="col-12 col-lg-6 my-auto pl-5 pr-5 pt-5 pb-5 pt-lg-0 pb-lg-0">
 													<h6 class="text-uppercase">03. Преподаватели</h6>
 													<p>Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе. Мы умеем преподавать и сами любим учиться. Чтобы получить знания нужно выбрать преподавателя, который сам держит свои знания в тонусе.</p>
 													<a class="carousel-control-prev pr-4" href="#indicators" role="button" data-slide="prev">

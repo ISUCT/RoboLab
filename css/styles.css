@@ -85,7 +85,7 @@ h6 {
 ::-webkit-input-placeholder, .form-control, option, input, button {
 	font-family: 'Rubik';
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
 }
 .card-body {
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
@@ -100,7 +100,9 @@ h6 {
 .card-footer {
 	background-color: #f9f9f9;
 	border: none;
-	box-shadow: 0 0 25px rgba(0,0,0,0.1);
+	box-shadow: 
+	4px 4px 6px -6px rgba(0,0,0,0.1), 
+	-4px 4px 6px -6px rgba(0,0,0,0.1);
 }
 .card-footer h2 {
 	font-size: 14px;
@@ -278,27 +280,40 @@ h6 {
 
 /*Programm, aboutus - Cards - 1*/
 
+#command-block div[class*='col-lg-4']  {
+	display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+	margin-bottom: 2rem;
+}
+#command-block .card-body h4, #command-block .card-body h3{
+	margin: 10px auto;
+}
+#command-block img {
+	margin: 10px auto;
+}
 #command-block .card-body {
-	height: 375px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	transition: 0.4s;
+	padding-bottom: 1rem;
 }
-#command-block .card-body h4, h3{
-	margin: 10px auto;
+#command-block .card-footer {
+	padding: 1rem;
+	background-color: white;
+	box-shadow: 
+	4px 2px 6px -4px rgba(0,0,0,0.1), 
+	-4px 2px 6px -4px rgba(0,0,0,0.1);
 }
-#command-block .card-body img {
-	margin: 10px auto;
-}
-#command-block .card-body li a i{
-	margin: 20px 8px;
+#command-block .card-footer li a i {
 	transition: 0.4s;
 	font-style: normal;
-}
-#command-block .card {
-	margin: 0 0 25px 0;
 }
 	
 
 
 /**/
+
 
 #prog-head {
 	height: 483px;
@@ -408,9 +423,14 @@ h6 {
 	height: 10px;
 	border-radius: 50%;
 	border: 1px solid #dd3558;
+	margin: 0 5px;
 }
 .carousel-inner {
-	height: 520px;
+	display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+/*	height: 520px;*/
 	box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 .carousel-inner .row {
@@ -426,7 +446,7 @@ h6 {
 }
 .carousel-control-next-icon:after {
 	content: '';
-	font-size:55px;
+	font-size: 55px;
 	color: black;
 }
 .carousel-control-prev-icon:after {
@@ -643,4 +663,21 @@ a i:hover {
 #blue a:hover {
 	color: white;
 	background-color: #c5d9e4;
+}
+
+
+
+
+
+/* Modal Window*/
+
+.modal-body .row {
+	margin: 0;
+	padding: 0;
+}
+.modal-content {
+	border: none;
+}
+.modal-body, .modal-body div[class*='col-6'] {
+	padding: 0;
 }
