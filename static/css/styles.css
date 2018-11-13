@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,500,700&subset=cyrillic');
-@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:900;src:url(../webfonts/fa-solid-900.eot);src:url(../webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(../webfonts/fa-solid-900.woff2) format("woff2"),url(../webfonts/fa-solid-900.woff) format("woff"),url(../webfonts/fa-solid-900.ttf) format("truetype"),url(../webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.fas{font-family:Font Awesome\ 5 Free;font-weight:900}
 body {
 	font-family: 'Rubik';
 	font-weight: 300;
@@ -85,7 +84,7 @@ h6 {
 ::-webkit-input-placeholder, .form-control, option, input, button {
 	font-family: 'Rubik';
     font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
 }
 .card-body {
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
@@ -93,6 +92,7 @@ h6 {
 }
 .card {
 	border: none;
+	margin: 1rem 0;
 }
 .card-text {
 	padding: 0 25px 0 25px;
@@ -107,12 +107,8 @@ h6 {
 .card-footer h2 {
 	font-size: 14px;
 }
-.container {
-    display: table;
-    width: 100%;
-    height: 100%;
-    min-height: 100%;
-}
+
+/**/
 .row {
 	margin: auto 48px;
 }
@@ -128,7 +124,6 @@ h6 {
 #hideref a:hover > h6,
 #hideref a:hover > h6 > i,
 #showhide h6:hover {
-	transition: 0.4s;
 	color: #dd3558;
 }
 
@@ -179,10 +174,6 @@ h6 {
 /**/
 
 
-
-#indexlab {
-	height: 693px;
-}
 #indexlab .header-button-2 {
 	color: #dd3558
 }
@@ -234,10 +225,10 @@ h6 {
 	border-radius: 5px;
 	transition: 0.4s;
 	border: 1px solid #dd3558;
+	cursor: pointer;
 }
 .header-button-1:hover, .submit-button:hover {
 	background-color: #c42143;
-	transition: 0.4s
 }
 
 
@@ -250,7 +241,6 @@ h6 {
 	width: 100%;
 	margin: auto;
 	bottom: 0;
-	height: 430px;
 }
 .footer ul li {
 	padding: 20px 5px 0px 5px;
@@ -266,16 +256,9 @@ h6 {
     -webkit-text-stroke-color: #b0b0b0;
     transition: 0.4s
 }
-#foo-2 {
-	height: 20px;
+.footer-copyright {
 	background-color: #fff;
 }
-#foo-2 ul li a {
-	font-family: 'Rubik';
-	font-weight: 300;
-	font-size: 14px;
-}
-
 /**/
 
 /*Programm, aboutus - Cards - 1*/
@@ -316,7 +299,8 @@ h6 {
 
 
 #prog-head {
-	height: 483px;
+	/*height: 483px;*/
+	background-color: #fabe50;
 }
 #prog-head h3 {
 	padding: 20px 0;
@@ -378,28 +362,22 @@ h6 {
 	height: 585px;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
 	transition: 0.4s;
+
 }
 .info-box-2 {	
 	float: left;
-	display: table-cell;
 	overflow: hidden;
 	background-color: white;
+	display: table-cell;
 	border: 1px;
 	border-radius: 5px;
 	height: 280px;
 	box-shadow: 0 0 25px rgba(0,0,0,0.1);
 	transition: 0.4s;
+
 }
 .info-box-2 div {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-/*	display: inline-flex;*/
-/*	display: -webkit-inline-box;
-	display: -webkit-inline-flex;
-	display: -ms-inline-flexbox;*/
+	
 }
 .info-box:hover, .info-box-2:hover {	
 	box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.5);
@@ -570,6 +548,17 @@ a i:hover {
 .message-window p{
 	margin: 5px 0 0;
 }
+.courses 
+{
+	display: inline-flex;
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -ms-inline-flexbox;
+
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+}
 .course {
 	background-color: #f4f4f4;
 	height: 1000px;
@@ -664,7 +653,10 @@ a i:hover {
 	color: white;
 	background-color: #c5d9e4;
 }
-
+.fa-envelope {
+	font-size: 1.3rem;
+	margin: 0.2rem;
+}
 
 
 
@@ -680,4 +672,9 @@ a i:hover {
 }
 .modal-body, .modal-body div[class*='col-6'] {
 	padding: 0;
+}
+
+.error {
+	font-size: 10rem;
+	margin: 5rem 0 4rem 0;
 }

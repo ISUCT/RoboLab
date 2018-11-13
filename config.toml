@@ -1,0 +1,19 @@
+baseurl = "/"
+metaDataFormat = "yaml"
+
+languageCode = "ru"
+languageLang = "ru"
+defaultContentLanguage = "ru"
+
+title = "RoboLab"
+
+publishDir = "public"
+
+relativeURLs = false
+hrefTargetBlank = false
+
+[params]
+description = '''
+'''
+author = "Aventhor"
+
