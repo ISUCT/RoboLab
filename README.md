@@ -10,4 +10,4 @@ https://invis.io/5MENLY9TV#/266039843_Main
 
 ## Pазвернутый результат для проверки
 
-https://isuct.github.io/RoboLab/
+https://isuct.github.io/RoboLab/main.html
